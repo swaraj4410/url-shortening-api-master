@@ -9,6 +9,34 @@ body {
     font-family: 'Poppins', sans-serif;    
 }
 
+.footer {
+    background-image: url('images/bg-boost-desktop.svg');
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(70, 24, 112);
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+.footer .section-footer {
+    text-align: center;
+    width: 50%;
+    margin: 20px auto;
+}
+.section-footer > button {
+    margin: 20px ;
+    background: none;
+    background-color: turquoise;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    color: white;
+}
+.section-footer button:hover {cursor: pointer;}
+
+
+
 @media only screen and (min-width: 300px) {
 nav {
     display: flex;
